@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="908.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proiect_poo.SignUpController">
+   <children>
+      <AnchorPane minHeight="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: transparent;">
+         <children>
+            <Label layoutX="49.0" layoutY="42.0" prefHeight="44.0" prefWidth="127.0" text="Username">
+               <font>
+                  <Font name="Dubai Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="49.0" layoutY="105.0" text="Password">
+               <font>
+                  <Font name="Dubai Bold" size="25.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_username" alignment="CENTER" layoutX="237.0" layoutY="38.0" prefHeight="45.0" prefWidth="254.0" promptText="Username" style="-fx-background-radius: 50;">
+               <font>
+                  <Font name="Dubai Regular" size="21.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tf_password" alignment="CENTER" layoutX="238.0" layoutY="101.0" prefHeight="44.0" prefWidth="254.0" promptText="Password" style="-fx-background-radius: 50;">
+               <font>
+                  <Font name="Dubai Regular" size="21.0" />
+               </font>
+            </TextField>
+            <Label layoutX="157.0" layoutY="240.0" text="Please select gender">
+               <font>
+                  <Font name="Dubai Bold" size="24.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="rb_male" layoutX="154.0" layoutY="284.0" mnemonicParsing="false" text="Male">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="rb_female" layoutX="154.0" layoutY="314.0" mnemonicParsing="false" text="Female">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="rb_prefer_not_to_say" layoutX="153.0" layoutY="345.0" mnemonicParsing="false" text="Prefer not to say">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </RadioButton>
+            <Button fx:id="button_signup" layoutX="194.0" layoutY="416.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="190.0" style="-fx-background-color: #7083C3; -fx-background-radius: 50;" text="SignUp">
+               <font>
+                  <Font name="Dubai Bold" size="25.0" />
+               </font>
+            </Button>
+            <Label layoutX="82.0" layoutY="504.0" text="Already a member?">
+               <font>
+                  <Font name="Dubai Bold" size="25.0" />
+               </font>
+            </Label>
+            <Button fx:id="button_log_in" layoutX="387.0" layoutY="500.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="127.0" style="-fx-background-color: transparent;" text="Log In!" textFill="#1147fe" underline="true">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Button>
+            <Label layoutX="52.0" layoutY="175.0" text="Email">
+               <font>
+                  <Font name="Dubai Bold" size="25.0" />
+               </font>
+            </Label>
+            <TextField fx:id="email" alignment="CENTER" layoutX="238.0" layoutY="165.0" prefHeight="54.0" prefWidth="254.0" promptText="Email" style="-fx-background-radius: 50;">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </TextField>
+         </children></AnchorPane>
+      <AnchorPane prefHeight="600.0" prefWidth="548.0" style="-fx-background-color: #7083C3;">
+         <children>
+            <ImageView fitHeight="202.0" fitWidth="236.0" layoutX="63.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/gym-fitness.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="114.0" layoutY="231.0" text="Commit">
+               <font>
+                  <Font name="Dubai Bold" size="30.0" />
+               </font></Label>
+            <Label layoutX="130.0" layoutY="272.0" text="Train">
+               <font>
+                  <Font name="Dubai Bold" size="30.0" />
+               </font></Label>
+            <Label layoutX="110.0" layoutY="313.0" text="Conquer">
+               <font>
+                  <Font name="Dubai Bold" size="30.0" />
+               </font></Label>
+         </children></AnchorPane>
+   </children>
+</HBox>

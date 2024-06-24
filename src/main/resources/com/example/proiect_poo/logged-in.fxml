@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="908.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proiect_poo.LoggedInController">
+   <children>
+      <ImageView fitHeight="608.0" fitWidth="908.0" layoutX="-13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/floor-photo.jpg" />
+         </image>
+         <effect>
+            <MotionBlur radius="25.9" />
+         </effect>
+      </ImageView>
+      <Label fx:id="label_welcome" alignment="CENTER" contentDisplay="CENTER" layoutX="280.0" layoutY="14.0" prefHeight="55.0" prefWidth="322.0" text="Welcome" textAlignment="CENTER" textFill="#7083c3" wrapText="true">
+         <font>
+            <Font name="Dubai Bold" size="56.0" />
+         </font>
+      </Label>
+      <Label layoutX="280.0" layoutY="161.0" prefHeight="55.0" prefWidth="339.0" text="Please select your category" textFill="#7083c3">
+         <font>
+            <Font name="Dubai Bold" size="28.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_lower_body" layoutX="290.0" layoutY="229.0" mnemonicParsing="false" prefHeight="110.0" prefWidth="130.0" style="-fx-min-height: 80; -fx-min-width: 80; -fx-background-color: #7083C3;" text="lower body">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="button_upper_body" layoutX="459.0" layoutY="229.0" mnemonicParsing="false" prefHeight="110.0" prefWidth="130.0" style="-fx-min-height: 80; -fx-min-width: 80; -fx-background-color: #7083C3;" text="upper body">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></Button>
+      <Button fx:id="button_cardio" layoutX="290.0" layoutY="360.0" mnemonicParsing="false" prefHeight="110.0" prefWidth="130.0" style="-fx-min-height: 70; -fx-min-width: 70; -fx-background-color: #7083C3;" text="cardio">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="button_abs" layoutX="459.0" layoutY="360.0" mnemonicParsing="false" prefHeight="110.0" prefWidth="130.0" style="-fx-min-height: 80; -fx-min-width: 80; -fx-background-color: #7083C3;" text="abs">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Label fx:id="label_user" alignment="CENTER" contentDisplay="CENTER" layoutX="174.0" layoutY="79.0" prefHeight="83.0" prefWidth="520.0" text="user" textFill="#7083c3">
+         <font>
+            <Font name="Dubai Bold" size="56.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
